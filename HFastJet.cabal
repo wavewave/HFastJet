@@ -46,6 +46,33 @@ Library
   ghc-prof-options: -caf-all -auto-all
   Build-Depends:      base>4 && < 5
   Exposed-Modules:
+                       HEP.Jet.FastJet.Class.ActiveAreaSpec
+                       HEP.Jet.FastJet.Class.CircularRange
+                       HEP.Jet.FastJet.Class.ClusterSequence
+                       HEP.Jet.FastJet.Class.ClusterSequence1GhostPassiveArea
+                       HEP.Jet.FastJet.Class.ClusterSequenceActiveArea
+                       HEP.Jet.FastJet.Class.ClusterSequenceActiveAreaExplicitGhosts
+                       HEP.Jet.FastJet.Class.ClusterSequenceArea
+                       HEP.Jet.FastJet.Class.ClusterSequenceAreaBase
+                       HEP.Jet.FastJet.Class.ClusterSequencePassiveArea
+                       HEP.Jet.FastJet.Class.ClusterSequenceStructure
+                       HEP.Jet.FastJet.Class.ClusterSequenceVoronoiArea
+                       HEP.Jet.FastJet.Class.ClusterSequenceWithArea
+                       HEP.Jet.FastJet.Class.CompositeJetStructure
+                       HEP.Jet.FastJet.Class.Error
+                       HEP.Jet.FastJet.Class.FunctionOfPseudoJet
+                       HEP.Jet.FastJet.Class.GhostedAreaSpec
+                       HEP.Jet.FastJet.Class.JetDefinition
+                       HEP.Jet.FastJet.Class.LimitedWarning
+                       HEP.Jet.FastJet.Class.PseudoJet
+                       HEP.Jet.FastJet.Class.PseudoJetStructureBase
+                       HEP.Jet.FastJet.Class.RangeDefinition
+                       HEP.Jet.FastJet.Class.Selector
+                       HEP.Jet.FastJet.Class.SharedPtr
+                       HEP.Jet.FastJet.Class.WrappedStructure
+
+                      
+
                        HEP.Jet.FastJet.TypeCast
                        HEP.Jet.FastJet.Class.Deletable
                        HEP.Jet.FastJet.Class.TObject
