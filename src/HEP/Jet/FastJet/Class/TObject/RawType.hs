@@ -2,14 +2,14 @@
              FlexibleInstances, TypeSynonymInstances, 
              EmptyDataDecls, ExistentialQuantification, ScopedTypeVariables #-}
 
-module HROOT.Class.TObject.RawType where
+module HEP.Jet.FastJet.Class.TObject.RawType where
 
 
 -- import Foreign.Ptr
 import Foreign.ForeignPtr
 -- import Foreign.Marshal.Array
 
-import HROOT.TypeCast  
+import HEP.Jet.FastJet.TypeCast  
 
 data RawTObject
 newtype TObject = TObject (ForeignPtr RawTObject) deriving (Eq, Ord, Show)

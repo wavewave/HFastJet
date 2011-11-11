@@ -1,16 +1,16 @@
 {-# LANGUAGE FlexibleInstances, FlexibleContexts, TypeFamilies, 
              MultiParamTypeClasses, OverlappingInstances, IncoherentInstances #-}
 
-module HROOT.Class.TDictionary.Cast where
+module HEP.Jet.FastJet.Class.TDictionary.Cast where
 
 
 import Foreign.Ptr
 import Foreign.ForeignPtr
-import HROOT.TypeCast
+import HEP.Jet.FastJet.TypeCast
 import System.IO.Unsafe
 
-import HROOT.Class.TDictionary.RawType
-import HROOT.Class.TDictionary.Interface
+import HEP.Jet.FastJet.Class.TDictionary.RawType
+import HEP.Jet.FastJet.Class.TDictionary.Interface
 
 
 

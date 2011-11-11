@@ -1,4 +1,4 @@
-module HROOT.Class.TObject
+module HEP.Jet.FastJet.Class.TObject
   (
     TObject(..)
   , ITObject(..)
@@ -6,10 +6,10 @@ module HROOT.Class.TObject
   , newTObject 
   ) where
 
--- import HROOT.Class.Interface
--- import HROOT.Class.Implementation ()
+-- import HEP.Jet.FastJet.Class.Interface
+-- import HEP.Jet.FastJet.Class.Implementation ()
 
-import HROOT.Class.TObject.RawType
-import HROOT.Class.TObject.Interface
-import HROOT.Class.TObject.Implementation
+import HEP.Jet.FastJet.Class.TObject.RawType
+import HEP.Jet.FastJet.Class.TObject.Interface
+import HEP.Jet.FastJet.Class.TObject.Implementation
 

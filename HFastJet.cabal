@@ -46,7 +46,6 @@ Library
   ghc-prof-options: -caf-all -auto-all
   Build-Depends:      base>4 && < 5
   Exposed-Modules:
-                       HEP.Jet.FastJet
                        HEP.Jet.FastJet.TypeCast
                        HEP.Jet.FastJet.Class.Deletable
                        HEP.Jet.FastJet.Class.TObject

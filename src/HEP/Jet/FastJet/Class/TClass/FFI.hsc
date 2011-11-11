@@ -1,19 +1,19 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 
--- module HROOT.Class.FFI where
+-- module HEP.Jet.FastJet.Class.FFI where
 
-module HROOT.Class.TClass.FFI where
+module HEP.Jet.FastJet.Class.TClass.FFI where
 
 
 import Foreign.C            
 import Foreign.Ptr
 
--- import HROOT.Class.Interface
+-- import HEP.Jet.FastJet.Class.Interface
 
 -- #include ""
 
-import HROOT.Class.TClass.RawType
-import HROOT.Class.TObject.RawType
+import HEP.Jet.FastJet.Class.TClass.RawType
+import HEP.Jet.FastJet.Class.TObject.RawType
 
 #include "HROOTTClass.h"
 

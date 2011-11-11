@@ -1,4 +1,4 @@
-module HROOT.Class.TClass
+module HEP.Jet.FastJet.Class.TClass
   (
     TClass(..)
   , ITClass
@@ -6,10 +6,10 @@ module HROOT.Class.TClass
  
   ) where
 
--- import HROOT.Class.Interface
--- import HROOT.Class.Implementation ()
+-- import HEP.Jet.FastJet.Class.Interface
+-- import HEP.Jet.FastJet.Class.Implementation ()
 
-import HROOT.Class.TClass.RawType
-import HROOT.Class.TClass.Interface
-import HROOT.Class.TClass.Implementation
+import HEP.Jet.FastJet.Class.TClass.RawType
+import HEP.Jet.FastJet.Class.TClass.Interface
+import HEP.Jet.FastJet.Class.TClass.Implementation
 

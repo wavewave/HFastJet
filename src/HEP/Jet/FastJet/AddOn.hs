@@ -1,4 +1,4 @@
 {-# LANGUAGE TypeFamilies, GADTs, ExistentialQuantification, EmptyDataDecls, ScopedTypeVariables, FlexibleInstances #-}
 
-module HROOT.AddOn where
+module HEP.Jet.FastJet.AddOn where
 

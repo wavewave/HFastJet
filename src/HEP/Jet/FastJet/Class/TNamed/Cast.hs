@@ -1,16 +1,16 @@
 {-# LANGUAGE FlexibleInstances, FlexibleContexts, TypeFamilies, 
              MultiParamTypeClasses, OverlappingInstances, IncoherentInstances #-}
 
-module HROOT.Class.TNamed.Cast where
+module HEP.Jet.FastJet.Class.TNamed.Cast where
 
 
 import Foreign.Ptr
 import Foreign.ForeignPtr
-import HROOT.TypeCast
+import HEP.Jet.FastJet.TypeCast
 import System.IO.Unsafe
 
-import HROOT.Class.TNamed.RawType
-import HROOT.Class.TNamed.Interface
+import HEP.Jet.FastJet.Class.TNamed.RawType
+import HEP.Jet.FastJet.Class.TNamed.Interface
 
 instance (ITNamed a, FPtr a) => Castable a (Ptr RawTNamed) where
   cast = unsafeForeignPtrToPtr . castForeignPtr . get_fptr

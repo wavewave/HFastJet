@@ -1,12 +1,12 @@
-module HROOT.Class.Deletable
+module HEP.Jet.FastJet.Class.Deletable
   (
     IDeletable(..) 
   ) where
 
--- import HROOT.Class.Interface
--- import HROOT.Class.Implementation ()
+-- import HEP.Jet.FastJet.Class.Interface
+-- import HEP.Jet.FastJet.Class.Implementation ()
 
-import HROOT.Class.Deletable.RawType
-import HROOT.Class.Deletable.Interface
-import HROOT.Class.Deletable.Implementation
+import HEP.Jet.FastJet.Class.Deletable.RawType
+import HEP.Jet.FastJet.Class.Deletable.Interface
+import HEP.Jet.FastJet.Class.Deletable.Implementation
 

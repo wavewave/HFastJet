@@ -3,7 +3,7 @@
              EmptyDataDecls, ExistentialQuantification, ScopedTypeVariables, 
              GADTs #-}
 
-module HROOT.TypeCast where
+module HEP.Jet.FastJet.TypeCast where
 
 import Data.Word
 import Foreign.C            

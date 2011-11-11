@@ -1,18 +1,18 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 
--- module HROOT.Class.FFI where
+-- module HEP.Jet.FastJet.Class.FFI where
 
-module HROOT.Class.Deletable.FFI where
+module HEP.Jet.FastJet.Class.Deletable.FFI where
 
 
 import Foreign.C            
 import Foreign.Ptr
 
--- import HROOT.Class.Interface
+-- import HEP.Jet.FastJet.Class.Interface
 
 -- #include ""
 
-import HROOT.Class.Deletable.RawType
+import HEP.Jet.FastJet.Class.Deletable.RawType
 
 
 #include "HROOTDeletable.h"

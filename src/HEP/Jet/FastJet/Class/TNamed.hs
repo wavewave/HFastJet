@@ -1,4 +1,4 @@
-module HROOT.Class.TNamed
+module HEP.Jet.FastJet.Class.TNamed
   (
     TNamed(..)
   , ITNamed(..)
@@ -6,10 +6,10 @@ module HROOT.Class.TNamed
   , newTNamed 
   ) where
 
--- import HROOT.Class.Interface
--- import HROOT.Class.Implementation ()
+-- import HEP.Jet.FastJet.Class.Interface
+-- import HEP.Jet.FastJet.Class.Implementation ()
 
-import HROOT.Class.TNamed.RawType
-import HROOT.Class.TNamed.Interface
-import HROOT.Class.TNamed.Implementation
+import HEP.Jet.FastJet.Class.TNamed.RawType
+import HEP.Jet.FastJet.Class.TNamed.Interface
+import HEP.Jet.FastJet.Class.TNamed.Implementation
 

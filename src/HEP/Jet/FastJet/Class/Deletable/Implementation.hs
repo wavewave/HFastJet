@@ -2,15 +2,15 @@
              FlexibleInstances, TypeSynonymInstances, EmptyDataDecls, 
              OverlappingInstances, IncoherentInstances #-}
 
-module HROOT.Class.Deletable.Implementation where
+module HEP.Jet.FastJet.Class.Deletable.Implementation where
 
 
-import HROOT.TypeCast
+import HEP.Jet.FastJet.TypeCast
 
-import HROOT.Class.Deletable.RawType
-import HROOT.Class.Deletable.FFI
-import HROOT.Class.Deletable.Interface
-import HROOT.Class.Deletable.Cast
+import HEP.Jet.FastJet.Class.Deletable.RawType
+import HEP.Jet.FastJet.Class.Deletable.FFI
+import HEP.Jet.FastJet.Class.Deletable.Interface
+import HEP.Jet.FastJet.Class.Deletable.Cast
 
 
 

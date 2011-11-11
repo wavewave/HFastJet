@@ -2,21 +2,21 @@
              FlexibleInstances, TypeSynonymInstances, EmptyDataDecls, 
              OverlappingInstances, IncoherentInstances #-}
 
-module HROOT.Class.TObject.Implementation where
+module HEP.Jet.FastJet.Class.TObject.Implementation where
 
 
-import HROOT.TypeCast
+import HEP.Jet.FastJet.TypeCast
 
-import HROOT.Class.TObject.RawType
-import HROOT.Class.TObject.FFI
-import HROOT.Class.TObject.Interface
-import HROOT.Class.TObject.Cast
-import HROOT.Class.TClass.RawType
-import HROOT.Class.TClass.Cast
-import HROOT.Class.TClass.Interface
-import HROOT.Class.Deletable.RawType
-import HROOT.Class.Deletable.Cast
-import HROOT.Class.Deletable.Interface
+import HEP.Jet.FastJet.Class.TObject.RawType
+import HEP.Jet.FastJet.Class.TObject.FFI
+import HEP.Jet.FastJet.Class.TObject.Interface
+import HEP.Jet.FastJet.Class.TObject.Cast
+import HEP.Jet.FastJet.Class.TClass.RawType
+import HEP.Jet.FastJet.Class.TClass.Cast
+import HEP.Jet.FastJet.Class.TClass.Interface
+import HEP.Jet.FastJet.Class.Deletable.RawType
+import HEP.Jet.FastJet.Class.Deletable.Cast
+import HEP.Jet.FastJet.Class.Deletable.Interface
 
 import Data.Word
 -- import Foreign.C            

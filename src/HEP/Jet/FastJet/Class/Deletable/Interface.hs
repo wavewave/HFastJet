@@ -2,16 +2,16 @@
              FlexibleInstances, TypeSynonymInstances, 
              EmptyDataDecls, ExistentialQuantification, ScopedTypeVariables #-}
 
--- module HROOT.Class.Interface where
+-- module HEP.Jet.FastJet.Class.Interface where
 
-module HROOT.Class.Deletable.Interface where
+module HEP.Jet.FastJet.Class.Deletable.Interface where
 
 
 import Data.Word
 import Foreign.ForeignPtr
-import HROOT.TypeCast
+import HEP.Jet.FastJet.TypeCast
 
-import HROOT.Class.Deletable.RawType
+import HEP.Jet.FastJet.Class.Deletable.RawType
 
 
 
