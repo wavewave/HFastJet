@@ -1,0 +1,103 @@
+Name:		HFastJet
+Version:	0.0
+Synopsis:	Wrapper for FastJet
+Description: 	Haskell FFI binding for FastJet
+Homepage:       http://ianwookim.org/HFastJet
+License: 	LGPL-2.1
+License-file:	LICENSE
+Author:		Ian-Woo Kim
+Maintainer: 	Ian-Woo Kim <ianwookim@gmail.com>
+Category:       Graphics
+Tested-with:    GHC >= 7.0.2 && <= 7.0.3
+Build-Type: 	Custom
+cabal-version:  >=1.10
+Extra-source-files: 
+                       CHANGES
+                       Config.hs
+                       csrc/addon.h
+                       csrc/HROOTDeletable.h
+                       csrc/HROOTTObject.h
+                       csrc/HROOTTClass.h
+                       csrc/HROOTTDictionary.h
+                       csrc/HROOTTNamed.h
+                       csrc/HROOTDeletable.cpp
+                       csrc/HROOTTObject.cpp
+                       csrc/HROOTTClass.cpp
+                       csrc/HROOTTDictionary.cpp
+                       csrc/HROOTTNamed.cpp
+
+                       example/histadd.hs
+                       example/random1d.hs
+                       example/random2d.hs
+                       example/random2dApp.hs
+                       example/saveAsROOT.hs
+                       example/datetime.hs
+                       example/project1d.hs
+                       test/compiletest.hs
+
+Source-repository head
+  type:     darcs
+  location: http://ianwookim.org/public/repo/HFastJet
+
+Library
+  default-language: Haskell2010
+  hs-source-dirs: src
+  ghc-options:  -Wall -funbox-strict-fields -fno-warn-unused-do-bind -fno-warn-orphans
+  ghc-prof-options: -caf-all -auto-all
+  Build-Depends:      base>4 && < 5
+  Exposed-Modules:
+                       HEP.Jet.FastJet
+                       HEP.Jet.FastJet.TypeCast
+                       HEP.Jet.FastJet.Class.Deletable
+                       HEP.Jet.FastJet.Class.TObject
+                       HEP.Jet.FastJet.Class.TClass
+                       HEP.Jet.FastJet.Class.TDictionary
+                       HEP.Jet.FastJet.Class.TNamed
+  
+  Other-Modules:
+                       HEP.Jet.FastJet.Class.Deletable.RawType
+                       HEP.Jet.FastJet.Class.TObject.RawType
+                       HEP.Jet.FastJet.Class.TClass.RawType
+                       HEP.Jet.FastJet.Class.TDictionary.RawType
+                       HEP.Jet.FastJet.Class.TNamed.RawType
+                       HEP.Jet.FastJet.Class.Deletable.FFI
+                       HEP.Jet.FastJet.Class.TObject.FFI
+                       HEP.Jet.FastJet.Class.TClass.FFI
+                       HEP.Jet.FastJet.Class.TDictionary.FFI
+                       HEP.Jet.FastJet.Class.TNamed.FFI
+                       HEP.Jet.FastJet.Class.Deletable.Interface
+                       HEP.Jet.FastJet.Class.TObject.Interface
+                       HEP.Jet.FastJet.Class.TClass.Interface
+                       HEP.Jet.FastJet.Class.TDictionary.Interface
+                       HEP.Jet.FastJet.Class.TNamed.Interface
+                       HEP.Jet.FastJet.Class.Deletable.Cast
+                       HEP.Jet.FastJet.Class.TObject.Cast
+                       HEP.Jet.FastJet.Class.TClass.Cast
+                       HEP.Jet.FastJet.Class.TDictionary.Cast
+                       HEP.Jet.FastJet.Class.TNamed.Cast
+                       HEP.Jet.FastJet.Class.Deletable.Implementation
+                       HEP.Jet.FastJet.Class.TObject.Implementation
+                       HEP.Jet.FastJet.Class.TClass.Implementation
+                       HEP.Jet.FastJet.Class.TDictionary.Implementation
+                       HEP.Jet.FastJet.Class.TNamed.Implementation
+  extra-libraries:    stdc++
+  Include-dirs:       csrc
+  Install-includes:   
+                       addon.h
+                       HROOTType.h
+                       HROOTDeletable.h
+                       HROOTTObject.h
+                       HROOTTClass.h
+                       HROOTTDictionary.h
+                       HROOTTNamed.h
+
+  C-sources:          
+                       csrc/HROOTDeletable.cpp
+                       csrc/HROOTTObject.cpp
+                       csrc/HROOTTClass.cpp
+                       csrc/HROOTTDictionary.cpp
+                       csrc/HROOTTNamed.cpp
+
+   
+
+
