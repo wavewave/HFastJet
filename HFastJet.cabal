@@ -30,21 +30,30 @@ Library
   Build-Depends:      base>4 && < 5, HROOT > 0.7
   Exposed-Modules:
                        HEP.Jet.FastJet.Class.Deletable
+                       HEP.Jet.FastJet.Class.PseudoJet
   Other-Modules:
                        HEP.Jet.FastJet.Class.Deletable.RawType
                        HEP.Jet.FastJet.Class.Deletable.FFI
                        HEP.Jet.FastJet.Class.Deletable.Interface
                        HEP.Jet.FastJet.Class.Deletable.Cast
                        HEP.Jet.FastJet.Class.Deletable.Implementation
-  extra-libraries:    stdc++
-  Include-dirs:       csrc
+                       HEP.Jet.FastJet.Class.PseudoJet.RawType
+                       HEP.Jet.FastJet.Class.PseudoJet.FFI
+                       HEP.Jet.FastJet.Class.PseudoJet.Interface
+                       HEP.Jet.FastJet.Class.PseudoJet.Cast
+                       HEP.Jet.FastJet.Class.PseudoJet.Implementation
+
+  extra-libraries:    stdc++, fastjet, fastjetplugins, fastjettools, siscone, siscone_spherical 
+  Include-dirs:       csrc, /Users/iankim/mac/usr/include
   Install-includes:   
                        addon.h
                        HFastJetType.h
                        HFastJetDeletable.h
+                       HFastJetPseudoJet.h
 
   C-sources:          
                        csrc/HFastJetDeletable.cpp
+                       csrc/HFastJetPseudoJet.cpp
 
 
 
